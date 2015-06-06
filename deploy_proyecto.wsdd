@@ -1,0 +1,8 @@
+<deployment xmlns="http://xml.apache.org/axis/wsdd/"
+ xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+ <service name="AemetProyect" provider="java:RPC" style="document" use="literal">
+ 	<parameter name="className" value="aemetproyecto.Services"/>
+	<parameter name="allowedMethods" value="*"/>
+	<namespace>http://soapnanana.com</namespace>
+ </service>
+</deployment>
